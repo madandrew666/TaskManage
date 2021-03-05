@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Tasks]
+(
+	[Id] INT NOT NULL PRIMARY KEY,
+	[Type] VARCHAR(50) NOT NULL,
+	[Contact] VARCHAR(50) NOT NULL,
+	[Description] VARCHAR (250) NULL,
+	[Duedate] DATETIME NOT NULL,
+	[Tasktype] VARCHAR (50) NOT NULL
+)
